@@ -1,7 +1,12 @@
 @import '_base';
 
+$main_color:#F5F0BB;
+$sub_color:#C4DFAA;
+$sub2_color:#90C8AC;
+$point_color:#73A9AD;
+
 header{
-    background:bisque;
+    background:$main_color;
     padding:20px;
 }
 
@@ -13,6 +18,8 @@ header{
 
     li{ margin:0 10px;
         a{ font-size: 18px; 
+            color:$point_color;
+            font-weight: bold;
             &:hover{ opacity: 0.5; }
         }
     }
@@ -25,18 +32,36 @@ header{
     flex-direction: column;
     align-items: center;
 
-    padding:20px 0;
+    padding:40px 0;
+    
+    section{
+        width:900px;
+        padding-bottom:40px;
+        border-bottom:1px solid $sub_color;
+        margin-bottom: 40px;
+
+        &:last-child{
+            border-bottom:0;
+        }
+    }
+
+    h3{
+        color:$point_color;
+        margin-bottom:20px;
+    }
+    
 }
 
-.flexCenter{
-    width:900px;
-}
 
 footer{
-    background:grey;
-    height: 80px;
+    background:$point_color;
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
+    p{ 
+        color:$main_color;
+    }
 }

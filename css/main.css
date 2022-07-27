@@ -23,7 +23,7 @@ input {
   padding: 0; }
 
 header {
-  background: bisque;
+  background: #F5F0BB;
   padding: 20px; }
 
 .gnb {
@@ -34,7 +34,9 @@ header {
   .gnb li {
     margin: 0 10px; }
     .gnb li a {
-      font-size: 18px; }
+      font-size: 18px;
+      color: #73A9AD;
+      font-weight: bold; }
       .gnb li a:hover {
         opacity: 0.5; }
 
@@ -44,17 +46,26 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0; }
-
-.flexCenter {
-  width: 900px; }
+  padding: 40px 0; }
+  .content section {
+    width: 900px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #C4DFAA;
+    margin-bottom: 40px; }
+    .content section:last-child {
+      border-bottom: 0; }
+  .content h3 {
+    color: #73A9AD;
+    margin-bottom: 20px; }
 
 footer {
-  background: grey;
-  height: 80px;
+  background: #73A9AD;
+  height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center; }
+  footer p {
+    color: #F5F0BB; }
 
 /*# sourceMappingURL=main.css.map */
