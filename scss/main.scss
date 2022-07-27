@@ -43,11 +43,15 @@ header{
         &:last-child{
             border-bottom:0;
         }
+
+        p{
+            margin-bottom:20px;
+        }
     }
 
     h3{
         color:$point_color;
-        margin-bottom:20px;
+        margin-bottom:30px;
     }
     
 }

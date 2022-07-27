@@ -54,9 +54,11 @@ header {
     margin-bottom: 40px; }
     .content section:last-child {
       border-bottom: 0; }
+    .content section p {
+      margin-bottom: 20px; }
   .content h3 {
     color: #73A9AD;
-    margin-bottom: 20px; }
+    margin-bottom: 30px; }
 
 footer {
   background: #73A9AD;
