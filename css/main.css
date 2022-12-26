@@ -49,6 +49,7 @@ header {
   padding: 40px 0; }
   .content section {
     width: 94%;
+    max-width: 900px;
     padding-bottom: 40px;
     border-bottom: 1px solid #C4DFAA;
     margin-bottom: 40px; }
