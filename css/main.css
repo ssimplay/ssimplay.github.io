@@ -48,7 +48,7 @@ header {
   align-items: center;
   padding: 40px 0; }
   .content section {
-    width: 900px;
+    width: 94%;
     padding-bottom: 40px;
     border-bottom: 1px solid #C4DFAA;
     margin-bottom: 40px; }
@@ -59,6 +59,16 @@ header {
   .content h3 {
     color: #73A9AD;
     margin-bottom: 30px; }
+  .content .exp {
+    background: #73A9AD;
+    color: #F5F0BB;
+    border-radius: 12px;
+    margin: 20px 0;
+    padding: 8px 16px;
+    display: inline-block; }
+    .content .exp:hover {
+      opacity: 0.5;
+      transition: all 0.3s ease-out; }
 
 footer {
   background: #73A9AD;

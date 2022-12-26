@@ -35,7 +35,7 @@ header{
     padding:40px 0;
     
     section{
-        width:900px;
+        width: 94%;
         padding-bottom:40px;
         border-bottom:1px solid $sub_color;
         margin-bottom: 40px;
@@ -52,6 +52,19 @@ header{
     h3{
         color:$point_color;
         margin-bottom:30px;
+    }
+
+    .exp{
+        background: $point_color;
+        color:$main_color;
+        border-radius: 12px;
+        margin:20px 0;
+        padding: 8px 16px;
+        display: inline-block;
+        &:hover{
+            opacity: 0.5;
+            transition: all 0.3s ease-out; ;
+        }
     }
     
 }
